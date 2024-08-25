@@ -3,6 +3,7 @@ import ImageGallery from 'react-image-gallery';
 //TODO: Why aren't images loading in preview mode and do we care?
 
 export const ImageCarousel = () => {
+  
   const images = [
     {
       original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-15.jpg",
