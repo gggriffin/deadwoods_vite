@@ -6,7 +6,7 @@ import { QuestionView } from "./views/QuestionView/QuestionView";
 import { VolunteerView } from "./views/VolunteerView/VolunteerView";
 import { Layout } from "./components/Layout";
 
-export const App = () => {
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -21,3 +21,5 @@ export const App = () => {
     </BrowserRouter>
   ); 
 };
+
+export default App;
