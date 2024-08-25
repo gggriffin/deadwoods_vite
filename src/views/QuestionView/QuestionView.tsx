@@ -1,4 +1,4 @@
-// import { ImageCarousel } from "../../components/ImageCarousel/ImageCarousel";
+import { ImageCarousel } from "../../components/ImageCarousel/ImageCarousel";
 import { InfoHeaderText } from "../../components/InfoHeaderText";
 import { InfoTile } from "../../components/InfoTile";
 import { QuestionAsked } from "./QuestionAsked";
@@ -20,7 +20,7 @@ export const QuestionView = () => {
         local Christmas drive and provided access to eyecare and other
         necessities for children in our communities.
       </InfoTile>
-      {/* <ImageCarousel /> */}
+      <ImageCarousel />
       <InfoHeaderText>Frequently Asked Questions</InfoHeaderText>
       <InfoTile>
         <QuestionAsked>Is The Deadwoods open rain or shine?</QuestionAsked>
