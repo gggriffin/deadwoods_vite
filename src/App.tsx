@@ -14,8 +14,8 @@ const App = () => {
           <Route path="faq/" element={<QuestionView />} />
           <Route path="volunteer/" element={<VolunteerView />} />
           <Route path="foundation/" element={<FoundationView />} />
-          <Route path="main/" element={<MainView />} />
-          <Route path="*" element={<Navigate to="main/" />} />
+          <Route path="/" element={<MainView />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Route>
       </Routes>
     </BrowserRouter>
