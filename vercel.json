@@ -1,8 +1,8 @@
 {
   "rewrites": [
-    { "src": "/main", "dest": "/" },
-    { "src": "/faq", "dest": "/" },
-    { "src": "/volunteer", "dest": "/" },
-    { "src": "/foundation", "dest": "/" }
+    { "source": "/main", "destination": "/" },
+    { "source": "/faq", "destination": "/" },
+    { "source": "/volunteer", "destination": "/" },
+    { "source": "/foundation", "destination": "/" }
   ]
 }
