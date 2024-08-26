@@ -4,52 +4,52 @@ export const ImageCarousel = () => {
   
   const images = [
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-15.jpg",
+      original: "/assets/deadwoods-image-15.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-1.jpg",
+      original: "/assets/deadwoods-image-1.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-3.jpg",
+      original: "/assets/deadwoods-image-3.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-5.jpg",
+      original: "/assets/deadwoods-image-5.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-6.jpg",
+      original: "/assets/deadwoods-image-6.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-4.jpg",
+      original: "/assets/deadwoods-image-4.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-7.jpg",
+      original: "/assets/deadwoods-image-7.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-8.jpg",
+      original: "/assets/deadwoods-image-8.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-2.jpg",
+      original: "/assets/deadwoods-image-2.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-9.jpg",
+      original: "/assets/deadwoods-image-9.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-10.jpg",
+      original: "/assets/deadwoods-image-10.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-11.jpg",
+      original: "/assets/deadwoods-image-11.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-12.jpg",
+      original: "/assets/deadwoods-image-12.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-13.jpg",
+      original: "/assets/deadwoods-image-13.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-14.jpg",
+      original: "/assets/deadwoods-image-14.jpg",
     },
     {
-      original: import.meta.env.BASE_URL + "src/assets/deadwoods-image-16.jpg",
+      original: "/assets/deadwoods-image-16.jpg",
     },
   ];
   

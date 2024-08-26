@@ -1,5 +1,5 @@
 body {
-    background-image:url("./assets/deadwoods-background-photo.jpeg");
+    background-image:url("../public/assets/deadwoods-background-photo.jpeg");
     background-repeat: repeat-x;
     background-size: 100% 100%;
 }
