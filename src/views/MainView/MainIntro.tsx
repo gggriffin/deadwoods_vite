@@ -5,7 +5,7 @@ export const MainIntro = () => {
       <div className='font-main-content-text text-4xl md:text-6xl lg:text-7xl lg:mt-32 text-right'>
         <h2 className='mb-2 lg:mb-12'>Something</h2>
         <h2 className='mb-12 lg:mb-12'>is in there.</h2>
-        <h2 className='text-3xl mb-12 lg:text-5xl'>10.20.2024</h2>
+        <h2 className='text-3xl mb-12 lg:text-5xl'>10.19.2024</h2>
         <a
           target='_blank'
           rel='noreferrer'
