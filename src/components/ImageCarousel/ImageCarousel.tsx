@@ -63,11 +63,11 @@ export const ImageCarousel = () => {
   ];
   
   return (
-    <div className="bg-trueBlack flex min-h-72 flex-col justify-center pb-2 font-main-content-text md:w-8/12">
+    <div className="bg-trueBlack flex flex-col justify-center pb-2 font-main-content-text md:w-8/12">
       <ImageGallery
         items={images}
         showFullscreenButton={false}
-        showNav={false}
+        showNav={true}
         showPlayButton={false}
         autoPlay
       />
