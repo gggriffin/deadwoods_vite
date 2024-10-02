@@ -7,16 +7,25 @@ export const ImageCarousel = () => {
       original: "/assets/deadwoods-image-15.jpg",
     },
     {
+      original: "/assets/deadwoods-image-17.jpg",
+    },
+    {
+      original: "/assets/deadwoods-image-18.jpg",
+    },
+    {
+      original: "/assets/deadwoods-image-19.jpg",
+    },
+    {
+      original: "/assets/deadwoods-image-20.jpg",
+    },
+    {
+      original: "/assets/deadwoods-image-21.jpg",
+    },
+    {
       original: "/assets/deadwoods-image-1.jpg",
     },
     {
       original: "/assets/deadwoods-image-3.jpg",
-    },
-    {
-      original: "/assets/deadwoods-image-5.jpg",
-    },
-    {
-      original: "/assets/deadwoods-image-6.jpg",
     },
     {
       original: "/assets/deadwoods-image-4.jpg",
@@ -54,13 +63,13 @@ export const ImageCarousel = () => {
   ];
   
   return (
-    <div className="bg-trueBlack flex flex-col justify-center pb-2 font-main-content-text md:w-8/12">
+    <div className="bg-trueBlack flex min-h-72 flex-col justify-center pb-2 font-main-content-text md:w-8/12">
       <ImageGallery
         items={images}
         showFullscreenButton={false}
         showNav={false}
         showPlayButton={false}
-
+        autoPlay
       />
       <span className="w-full text-center text-white text-sm">
         Photos courtesy of{" "}
