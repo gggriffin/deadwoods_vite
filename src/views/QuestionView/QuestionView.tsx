@@ -8,9 +8,18 @@ export const QuestionView = () => {
     <div className="h-full flex flex-col lg:items-center">
       <InfoHeaderText>Admission </InfoHeaderText>
       <InfoTile>
-        Tickets are $10 per person. Children ages 10 and under are free. Tickets
-        can be purchased with cash or Venmo the night of the event. Tickets must
-        be purchased on site. Proceeds will benefit The Stainbrook Foundation.
+        <div className="flex flex-col gap-4">
+          <div>
+            Tickets are $10 per person. Children ages 10 and under are free.
+            Tickets can be purchased with cash or Venmo the night of the event.
+            Tickets must be purchased on site.
+          </div>
+          <div>
+            Gates open at 6pm for chili and refreshments. Hayrides begin at 7pm
+            or when the sun goes down.
+          </div>
+          <div>Proceeds will benefit The Stainbrook Foundation.</div>
+        </div>
       </InfoTile>
       <InfoHeaderText>The Stainbrook Foundation </InfoHeaderText>
       <InfoTile>
@@ -32,13 +41,6 @@ export const QuestionView = () => {
           event but heavy downpours or other extreme conditions may. Check here
           in the days leading up to the event for weather cancellation
           information. November 6th will be our make up day.
-        </div>
-      </InfoTile>
-      <InfoTile>
-        <QuestionAsked>What is the best time to arrive?</QuestionAsked>
-        <div className="text-sm">
-          Gates open at 7:00pm, with the first groups entering the attraction at
-          sundown.
         </div>
       </InfoTile>
       <InfoTile>
