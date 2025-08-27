@@ -10,7 +10,7 @@ export const QuestionView = () => {
       <InfoTile>
         <div className="flex flex-col gap-4">
           <div>
-            Tickets are $10 per person. Children ages 10 and under are free.
+            Tickets are $10 per person.
             Tickets can be purchased with cash or Venmo the night of the event.
             Tickets must be purchased on site.
           </div>
@@ -40,7 +40,7 @@ export const QuestionView = () => {
           weather dependent. Light rain or cold weather will not affect this
           event but heavy downpours or other extreme conditions may. Check here
           in the days leading up to the event for weather cancellation
-          information. November 6th will be our make up day.
+          information. October 25th will be our make up day.
         </div>
       </InfoTile>
       <InfoTile>

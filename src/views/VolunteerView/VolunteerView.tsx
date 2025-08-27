@@ -8,7 +8,7 @@ export const VolunteerView = () => {
       <InfoTile>
         <p>
           We are a non-profit event and are staffed entirely by volunteers. Any
-          extra help is welcome. Minimum age for volunteering is 16. Interested
+          extra help is welcome. Interested
           in volunteering? Visit the{" "}
           <a
             className='text-blue-primary underline'
