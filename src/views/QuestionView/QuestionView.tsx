@@ -40,7 +40,7 @@ export const QuestionView = () => {
           weather dependent. Light rain or cold weather will not affect this
           event but heavy downpours or other extreme conditions may. Check here
           in the days leading up to the event for weather cancellation
-          information. October 25th will be our make up day.
+          information. October 24th will be our make up day.
         </div>
       </InfoTile>
       <InfoTile>
